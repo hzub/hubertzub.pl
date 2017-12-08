@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>403 Forbidden</TITLE>
+<link rel="stylesheet" href="http://zenbox.pl/default_webpage/style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD><BODY>
+<div id="container">
+  	<div class="info error">
+    	<h2>Odmówiono dostępu!</h2>
+        <p>Nie posiadasz uprawnień do przeglądania <!--#echo var="REQUEST_URI" --> na tym serwerze.</p>
+    </div>
+
+ <p>Nie jesteś naszym Klientem? <a href="https://zenbox.pl" title="hosting bez zmartwień, domeny, serwery www, strony, sklepy" target="_blank"><strong>Zobacz co możemy Ci zaoferować</strong></a> lub od razu <a href="https://panel.zenbox.pl/zamow.html" target="_blank"><strong>zamów u nas testowy serwer</strong></a> lub <a href="https://zenbox.pl/domeny/" title="domeny w stanie ZEN"><strong>domenę<strong></a>.</p>^M
+^M
+<ul>^M
+        <li class="home">^M
+            <span>Strona główna</span>^M
+            <a href="https://zenbox.pl" title="hosting bez zmartwień, domeny, serwery www, strony, sklepy" target="_blank">zenbox.pl</a>^M
+        </li>^M
+        <li class="Shop">^M
+            <span>Zamów jedną z usług</span>^M
+            <a href="https://panel.zenbox.pl/zamow.html" target="_blank">Złóż zamówienie</a>^M
+        </li>^M
+        <li class="help">^M
+            <span>Napisz jeśli masz problem</span>^M
+            <a href="http://pomoc.zenbox.pl" target="_blank">Dział pomocy ZB</a>^M
+        </li>^M
+^M
+    </ul>                       ^M
+^M
+
+</div><!-- Container -->
+<I><!--#echo var="HTTP_HOST" --></I>
+</BODY></HTML>
+
